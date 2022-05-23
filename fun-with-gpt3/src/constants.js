@@ -1,0 +1,9 @@
+export const DEVELOPEDBY = "Developed by Mugdha Agharkar";
+export const HEADERTEXT = "Fun With GPT-3";
+export const WRITE = "Write Something!"
+export const CLEAR = "Clear Text";
+export const SUBMIT = "Submit";
+export const RESPONSES = "Responses";
+export const CLEARALL = "Clear All Responses";
+export const PROMPT = "Prompt";
+export const RESPONSE = "Response";
