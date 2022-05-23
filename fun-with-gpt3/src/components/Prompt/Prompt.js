@@ -9,7 +9,7 @@ const Prompt = (props) => {
     const [promptValue, setPromptValue] = useState("");
     const handleClick = () => {
         const endPoint = "https://api.openai.com/v1/engines/text-curie-001/completions";
-        const token = process.env.OPEN_AI_SECRET;
+        const token = process.env.REACT_APP_API_KEY;
         const params =  {
         prompt: promptValue,
         temperature: 0.5,
